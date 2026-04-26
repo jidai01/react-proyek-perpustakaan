@@ -1,3 +1,8 @@
+/**
+ * @file ProfileScreen.js
+ * @description Komponen React Native untuk antarmuka layar mobile ProfileScreen.js.
+ * Dokumentasi ini digenerate secara otomatis untuk mempermudah navigasi kode.
+ */
 import React, { useEffect, useState } from 'react';
 import { StyleSheet, View, Text, TouchableOpacity, Alert, Platform, ScrollView } from 'react-native';
 

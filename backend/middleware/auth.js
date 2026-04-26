@@ -1,3 +1,8 @@
+/**
+ * @file auth.js
+ * @description Middleware Express untuk pemrosesan sebelum request sampai ke rute utama.
+ * Dokumentasi ini digenerate secara otomatis untuk mempermudah navigasi kode.
+ */
 const jwt = require("jsonwebtoken");
 
 // 1. Verifikasi Token (Hanya cek apakah user sudah login)

@@ -1,3 +1,8 @@
+/**
+ * @file App.js
+ * @description Komponen root aplikasi yang mengatur kerangka dan router utama.
+ * Dokumentasi ini digenerate secara otomatis untuk mempermudah navigasi kode.
+ */
 import React from 'react';
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet } from 'react-native';

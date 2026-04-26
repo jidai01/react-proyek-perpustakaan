@@ -1,3 +1,8 @@
+/**
+ * @file bukuRoutes.js
+ * @description Definisi rute dan endpoint API untuk bukuRoutes.js.
+ * Dokumentasi ini digenerate secara otomatis untuk mempermudah navigasi kode.
+ */
 const express = require("express");
 const router = express.Router();
 const db = require("../db");

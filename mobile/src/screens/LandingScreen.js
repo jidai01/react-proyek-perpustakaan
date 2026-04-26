@@ -1,3 +1,8 @@
+/**
+ * @file LandingScreen.js
+ * @description Komponen React Native untuk antarmuka layar mobile LandingScreen.js.
+ * Dokumentasi ini digenerate secara otomatis untuk mempermudah navigasi kode.
+ */
 // Updated: 2026-04-26
 import React from 'react';
 import { StyleSheet, View, Text, TouchableOpacity, Dimensions, ScrollView, Platform } from 'react-native';

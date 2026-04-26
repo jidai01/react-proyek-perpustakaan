@@ -1,3 +1,8 @@
+/**
+ * @file RegisterScreen.js
+ * @description Komponen React Native untuk antarmuka layar mobile RegisterScreen.js.
+ * Dokumentasi ini digenerate secara otomatis untuk mempermudah navigasi kode.
+ */
 import React, { useState, useEffect } from 'react';
 import { StyleSheet, View, Text, TextInput, TouchableOpacity, KeyboardAvoidingView, Platform, Alert, ScrollView } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';

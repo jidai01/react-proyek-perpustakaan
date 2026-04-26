@@ -1,3 +1,8 @@
+/**
+ * @file seed.js
+ * @description Modul pendukung untuk logika bisnis atau utilitas proyek.
+ * Dokumentasi ini digenerate secara otomatis untuk mempermudah navigasi kode.
+ */
 const db = require("./db");
 const bcrypt = require("bcryptjs");
 

@@ -1,3 +1,8 @@
+/**
+ * @file server.js
+ * @description Titik masuk utama (Entry point) untuk server Express backend.
+ * Dokumentasi ini digenerate secara otomatis untuk mempermudah navigasi kode.
+ */
 require("dotenv").config();
 const express = require("express");
 const cors = require("cors");

@@ -1,3 +1,8 @@
+/**
+ * @file db.js
+ * @description Konfigurasi koneksi ke database MySQL.
+ * Dokumentasi ini digenerate secara otomatis untuk mempermudah navigasi kode.
+ */
 require("dotenv").config();
 const mysql = require("mysql2");
 

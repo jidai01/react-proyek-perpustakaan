@@ -1,3 +1,8 @@
+/**
+ * @file security.test.js
+ * @description Modul pendukung untuk logika bisnis atau utilitas proyek.
+ * Dokumentasi ini digenerate secara otomatis untuk mempermudah navigasi kode.
+ */
 const request = require("supertest");
 const app = require("../server");
 const db = require("../db");

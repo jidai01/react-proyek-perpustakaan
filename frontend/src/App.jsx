@@ -1,3 +1,8 @@
+/**
+ * @file App.jsx
+ * @description Komponen root aplikasi yang mengatur kerangka dan router utama.
+ * Dokumentasi ini digenerate secara otomatis untuk mempermudah navigasi kode.
+ */
 import React from "react";
 import { BrowserRouter as Router, Routes, Route, Navigate } from "react-router-dom";
 import Layout from "./components/Layout";

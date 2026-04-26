@@ -1,3 +1,8 @@
+/**
+ * @file AppNavigator.js
+ * @description Konfigurasi router dan navigasi antar layar di aplikasi mobile.
+ * Dokumentasi ini digenerate secara otomatis untuk mempermudah navigasi kode.
+ */
 import React, { useState, useEffect } from 'react';
 import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';

@@ -1,3 +1,8 @@
+/**
+ * @file Layout.jsx
+ * @description Komponen React yang dapat digunakan ulang (reusable UI).
+ * Dokumentasi ini digenerate secara otomatis untuk mempermudah navigasi kode.
+ */
 import React from "react";
 import { Link, useNavigate, useLocation, Outlet } from "react-router-dom";
 import Swal from "sweetalert2";

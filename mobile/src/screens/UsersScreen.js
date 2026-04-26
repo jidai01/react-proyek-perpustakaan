@@ -1,3 +1,8 @@
+/**
+ * @file UsersScreen.js
+ * @description Komponen React Native untuk antarmuka layar mobile UsersScreen.js.
+ * Dokumentasi ini digenerate secara otomatis untuk mempermudah navigasi kode.
+ */
 import React, { useEffect, useState } from 'react';
 import { StyleSheet, View, Text, FlatList, TouchableOpacity, ActivityIndicator, Alert, Platform } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';

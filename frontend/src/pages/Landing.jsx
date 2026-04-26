@@ -1,3 +1,8 @@
+/**
+ * @file Landing.jsx
+ * @description Komponen React untuk halaman web utama Landing.jsx.
+ * Dokumentasi ini digenerate secara otomatis untuk mempermudah navigasi kode.
+ */
 import React, { useEffect } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import * as BiIcons from "react-icons/bi";

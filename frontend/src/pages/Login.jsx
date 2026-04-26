@@ -1,3 +1,8 @@
+/**
+ * @file Login.jsx
+ * @description Komponen React untuk halaman web utama Login.jsx.
+ * Dokumentasi ini digenerate secara otomatis untuk mempermudah navigasi kode.
+ */
 import React, { useState } from "react";
 import axios from "axios";
 import { useNavigate, Link } from "react-router-dom";

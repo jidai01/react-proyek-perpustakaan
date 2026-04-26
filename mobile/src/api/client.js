@@ -1,3 +1,8 @@
+/**
+ * @file client.js
+ * @description Konfigurasi dan interceptor HTTP client (Axios) untuk komunikasi ke backend.
+ * Dokumentasi ini digenerate secara otomatis untuk mempermudah navigasi kode.
+ */
 import axios from 'axios';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 

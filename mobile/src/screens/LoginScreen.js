@@ -1,3 +1,8 @@
+/**
+ * @file LoginScreen.js
+ * @description Komponen React Native untuk antarmuka layar mobile LoginScreen.js.
+ * Dokumentasi ini digenerate secara otomatis untuk mempermudah navigasi kode.
+ */
 import React, { useState } from 'react';
 import { StyleSheet, View, Text, TextInput, TouchableOpacity, KeyboardAvoidingView, Platform, Alert, ActivityIndicator } from 'react-native';
 import { MaterialCommunityIcons } from '@expo/vector-icons';
