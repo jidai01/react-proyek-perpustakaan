@@ -1,8 +1,15 @@
+/**
+ * @file Users.jsx
+ * @description Komponen halaman Manajemen Pengguna.
+ * Halaman ini sepenuhnya dikunci (dilindungi) dari non-admin. Jika user biasa memaksa masuk,
+ * komponen akan merender pesan "Akses Terbatas".
+ */
 import React, { useState, useEffect, useRef, useCallback } from "react";
 import axios from "axios";
 import Swal from "sweetalert2";
 import * as BiIcons from "react-icons/bi";
 
+// Ambil JQuery dari objek window browser
 const $ = window.$;
 
 const Icon = ({ name, className }) => {

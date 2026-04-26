@@ -1,9 +1,15 @@
+/**
+ * @file Dashboard.jsx
+ * @description Komponen halaman utama yang menampilkan daftar buku menggunakan DataTables.
+ * Halaman ini mengimplementasikan logika RBAC di mana hanya pengguna dengan role 'admin'
+ * yang dapat melihat tombol aksi (Tambah, Edit, Hapus).
+ */
 import React, { useState, useEffect, useRef, useCallback } from "react";
 import axios from "axios";
 import Swal from "sweetalert2";
 import * as BiIcons from "react-icons/bi";
 
-// Ambil JQuery dari window (CDN)
+// Ambil JQuery dari window (karena di-load via CDN di index.html)
 const $ = window.$;
 
 // Helper untuk render ikon
