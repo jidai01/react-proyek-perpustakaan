@@ -64,7 +64,7 @@ Langkah-langkah berikut akan membantu Anda mengunduh (*clone*) kode sumber dari 
 1. **Buka Terminal / Command Prompt** di direktori tujuan Anda.
 2. **Jalankan perintah Clone:**
    ```bash
-   git clone https://github.com/username-anda/perpusku.git
+   git clone https://github.com/jidai01/perpusku.git
    ```
    *(Catatan: Gantilah URL di atas dengan URL repositori asli Anda)*
 3. **Masuk ke dalam Folder Proyek:**
