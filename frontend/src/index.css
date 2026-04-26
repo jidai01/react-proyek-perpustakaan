@@ -1,0 +1,32 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #1883FF;
+  --color-dark: #121214;
+  --color-pure-white: #FFFFFF;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fadeIn {
+  animation: fadeIn 0.5s ease-out forwards;
+}
+
+/* Global Cursor Pointer for interactive elements */
+button, 
+select, 
+.dt-paging-button,
+.dt-length select,
+.dt-search input[type="search"],
+a {
+  cursor: pointer !important;
+}

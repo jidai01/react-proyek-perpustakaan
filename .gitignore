@@ -1,0 +1,83 @@
+# ==========================================
+# 📦 1. DEPENDENCIES (DEPENDENSI & PAKET)
+# ==========================================
+# Node modules adalah folder berat berisi package npm yang bisa di-install ulang
+node_modules/
+# Opsional: Jika menggunakan pnpm atau yarn, cache mereka juga diabaikan
+.pnp
+.pnp.js
+.yarn/cache
+.yarn/unplugged
+
+# ==========================================
+# 🌍 2. ENVIRONMENT VARIABLES (KREDENSIAL)
+# ==========================================
+# File .env mengandung data sensitif (password DB, JWT secret). JANGAN PERNAH di-commit!
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+# (Opsional) File config lain yang mungkin Anda rahasiakan
+*.secret.json
+
+# ==========================================
+# 🏗️ 3. BUILD OUTPUTS (HASIL KOMPILASI)
+# ==========================================
+# Build folder dari React/Vite (Frontend)
+frontend/dist/
+frontend/build/
+
+# Build folder & cache dari Expo/React Native (Mobile)
+mobile/.expo/
+mobile/web-build/
+mobile/dist/
+mobile/android/
+mobile/ios/
+
+# Cache dari parcel, webpack, atau vite
+.cache/
+.parcel-cache/
+.vite/
+
+# ==========================================
+# 📱 4. MOBILE / EXPO SPECIFIC FILES
+# ==========================================
+# File sementara atau log dari aplikasi Mobile
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+expo-debug.log*
+mobile/*.jks
+mobile/*.keystore
+mobile/babel.config.js.map
+
+# ==========================================
+# 🧪 5. TESTING & COVERAGE
+# ==========================================
+# Output hasil laporan test/coverage dari Jest atau Vitest
+coverage/
+.nyc_output/
+cypress/videos/
+cypress/screenshots/
+
+# ==========================================
+# 🛠️ 6. OS & IDE SPECIFIC FILES (SISTEM)
+# ==========================================
+# File tersembunyi yang otomatis dibuat oleh OS Mac/Windows
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# File konfigurasi lokal dari IDE/Editor (VSCode, IntelliJ, dsb.)
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
